@@ -19,6 +19,16 @@ import {
     Tab,
     Divider,
     Center,
+    Popover,
+    PopoverTrigger,
+    PopoverContent,
+    PopoverHeader,
+    PopoverBody,
+    PopoverFooter,
+    PopoverArrow,
+    PopoverCloseButton,
+    PopoverAnchor,
+    Input,
           
   } from '@chakra-ui/react'
 
@@ -105,15 +115,21 @@ function Navbar() {
               <Center height='38px'>
   <Divider orientation='vertical' />
 </Center>
-<div style={{marginTop:"7%"}}>
-            {/* search button */}
-            
-            <Search2Icon style={{color:"White",padding:"1%"
-        }} />
-
-         </div>
-
               </div>
+
+              <Popover>
+  <PopoverTrigger>
+    <Button style={{backgroundColor:"black"}}><Search2Icon style={{color:"White"
+        }} /></Button>
+  </PopoverTrigger>
+  <PopoverContent>
+    <PopoverArrow />
+   
+    <PopoverHeader
+    style={{height:"150px"}}><Input/></PopoverHeader>
+   
+  </PopoverContent>
+</Popover>
               
          
         </div>
