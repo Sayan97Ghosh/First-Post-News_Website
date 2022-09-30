@@ -31,7 +31,7 @@ export default function Carousel() {
   // These are the images used in the slide
   const cards = [
     'https://images.firstpost.com/wp-content/uploads/fpranking/1664446056562.jpg?impolicy=website&width=640&height=362',
-    'https://images.firstpost.com/wp-content/uploads/fpranking/1664348064943.jpg?impolicy=website&width=640&height=362',
+    'https://images.firstpost.com/wp-content/uploads/fpranking/1664474052806.jpg?impolicy=website&width=640&height=362y=website&width=640&height=362',
     'https://images.firstpost.com/wp-content/uploads/fpranking/1664362264968.jpg?impolicy=website&width=640&height=362',
   ];
 

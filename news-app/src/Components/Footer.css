@@ -1,0 +1,43 @@
+.main-footer{
+    height: 600px;
+    border-top: 4px solid black;
+    width: 100%;
+
+}
+.footer-header{
+    display: flex;
+    width: 60%;
+    margin: auto; 
+    gap: 78%;
+    height: 60px;
+    padding-top: 1%;
+}
+.socialDivs{
+    display: flex;
+    gap: 8px;
+}
+.footer-middle{
+    display:grid;
+    width: 60%;
+    margin: auto;
+    grid-template-columns: repeat(4,229px);
+    grid-template-rows: auto;
+}
+.footer-middle > div{
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    padding-left: 3%;
+}
+.footer-middle > div:nth-child(4){
+    border-right: none;
+}
+.bolder{
+    font-size: 18px;
+    font-weight: bolder;
+}
+.footer-last{
+    width: 60%;
+    margin: auto;
+
+}
