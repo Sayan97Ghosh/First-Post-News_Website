@@ -17,6 +17,8 @@ import {
 import {ChevronRightIcon} from "@chakra-ui/icons"
 import Carousel from '../Components/Carousel';
 import AspectRatio from '../Components/AspectRatio';
+
+
   
 
 function India() {
@@ -121,7 +123,7 @@ function India() {
                 <Input/>
                 <Button
             mt={4}
-            colorScheme='teal'
+            colorScheme='yellow'
             type='submit'
           >
             Submit
@@ -232,15 +234,13 @@ function India() {
               <div>
               <AspectRatio/>
               </div>
-              <div class="fixed-top"style={{border:"1px solid gray",marginTop:"6%"}}>
-              <img src="https://tpc.googlesyndication.com/simgad/4593733724512172833" border="0" width="300" height="250" alt="" class="img_ad"/>
-              </div>
-               
-               
-             
+              
+              <img className='Fixed-top'src="https://tpc.googlesyndication.com/simgad/4593733724512172833" border="0" width="300" height="250" alt="" class="img_ad"/>
+                
       </div>
 
     </div>
+   
     </>
       
     

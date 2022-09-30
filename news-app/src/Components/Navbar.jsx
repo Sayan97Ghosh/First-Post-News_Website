@@ -31,6 +31,7 @@ import {
     Input,
           
   } from '@chakra-ui/react'
+import Drawer_Extended from './Drawer_Extended';
 
 
   
@@ -61,7 +62,7 @@ function Navbar() {
 
           <DrawerBody >
            {/* Add all the tab */}
-
+           <Drawer_Extended/>
           
           </DrawerBody>
 
