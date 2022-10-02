@@ -170,7 +170,7 @@ console.log(userData);
               <div class="fixed-top"style={{border:"1px solid gray",marginTop:"6%"}}>
               <img src="https://tpc.googlesyndication.com/simgad/4593733724512172833" border="0" width="300" height="250" alt="" class="img_ad"/>
               </div>
-               
+               <AspectRatio/>
                
              
       </div>
