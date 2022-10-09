@@ -7,9 +7,8 @@ import ReactPlayer from'react-player'
             url={url}
             className="react-player"
             playing
-            
-            width="80%"
-            height="50%"
+            width="90%"
+            height="70%"
             style={{position:"absolute",
             
         left:"0",marginLeft:"10%" }}

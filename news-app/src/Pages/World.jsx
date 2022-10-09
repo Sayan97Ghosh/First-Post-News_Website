@@ -144,7 +144,7 @@ console.log(userData);
 
                <div className='most-viewed'>
                 <h3 className = "mostread">MOST READ</h3>
-               
+
                  <MostRead/>
             
            
@@ -165,7 +165,7 @@ console.log(userData);
               <span class="ob-unit ob-rec-source" data-type="Source">Dubai Hotels | Search Ads</span>
               </div> */}
               <div>
-              {/* <AspectRatio/> */}
+              <AspectRatio/>
               </div>
               <div class="fixed-top"style={{border:"1px solid gray",marginTop:"6%"}}>
               <img src="https://tpc.googlesyndication.com/simgad/4593733724512172833" border="0" width="300" height="250" alt="" class="img_ad"/>
